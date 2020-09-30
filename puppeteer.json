@@ -1,0 +1,24 @@
+{
+    "base_url" : 
+    "https://www.instagram.com/",
+    "username": "charmattest",
+    "password": "maildetest1!",
+    "hashtags": [
+      "funny","cars", "smile", "food",
+      "instafood", "life", "art", "family"
+    ],
+    "settings": {
+      "headless": false
+    },
+    "selectors": {
+      "home_to_login_button": ".izU2O a",
+      "username_field": "input[name='username']",
+      "password_field": "input[type='password']",
+      "post_heart_grey": "span.glyphsSpriteHeart__outline__24__grey_9",
+      "post_username": "div.e1e1d > h2 > a",
+      "post_follow_link": "div.bY2yH > button",
+      "post_like_button": "span.fr66n > button",
+      "post_follow_button": "span.oW_lN._1OSdk > button",
+      "post_close_button": "button.ckWGn"
+    }
+  }
